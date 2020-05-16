@@ -1,0 +1,40 @@
+#method1
+
+struct node{
+    int n;
+    bool v;
+    node *lch=0;
+    node *rch=0;
+};
+
+queue<node *> nextnode;
+
+void levelorder(queue *a){
+......
+}
+
+int main(){
+    levelorder(nextnode);
+}
+
+
+
+
+#method2
+
+struct node{
+    int n;
+    bool v;
+    node *lch=0;
+    node *rch=0;
+};
+
+queue<node *> nextnode;
+
+void levelorder(queue a){
+......
+}
+
+int main(){
+    levelorder(nextnode);
+}
